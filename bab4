@@ -84,13 +84,14 @@
 </header>
 
 <nav>
-    <a href="beranda">Beranda</a>
+    <a href="index.html">Beranda</a>
     <a href="Perkenalan">Perkenalan</a>
     <a href="bab1">Bab1</a>
     <a href="bab2">Bab2</a>
     <a href="bab3">Bab3</a>
     <a href="bab4">Bab4</a>
     <a href="bab5">Bab5</a>
+    <a href="bab6.html"></a>
 </nav>
 <div class="title">
     <section id="Komponen" style="text-align:center;">
