@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BabI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #c557b6;
+            color: rgb(0, 0, 0);
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav a:hover {
+            background-color: #282828;
+            border-radius: 4px;
+        }
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h2 {
+            color: black;
+        }
+        p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bab 5</h1>
+Evaluasi
+</header>
+
+<nav>
+    <a href="beranda">Beranda</a>
+    <a href="Perkenalan">Perkenalan</a>
+    <a href="bab1">Bab1</a>
+    <a href="bab2">Bab2</a>
+    <a href="bab3">Bab3</a>
+    <a href="bab4">Bab4</a>
+    <a href="bab5">Bab5</a>
+</nav>
+
+<div class="content">
+    <h2>5.1 Kesimpulan</h2>
+    <p>Sensor air dan flip flop menjadi sensor utama yaitu mendeteksi banjir sebelum terjadinya banjir tersebut. Supaya orang ornag bisa mengevakuasikan diri ke tempat yang aman.</p>  
+</div>
+<div class="content 3">
+<h2>5.2 Saran</h2>
+<p>Bu Inggar</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Tambahkan saklar agar lebih praktis</p>
+<p>Bu Jul</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Tempat air ditambahkan kotak plastik agar tidak tumpah</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Flip flop diberi saklar agar lebih praktis</p>
+<p>Bu Irene</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Tempat air dicek lagi agar tidak ada kebocoran</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Perlu ditambahkan saklar agar lebih praktis</p>
+<p>Pak Tikno</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Tutup kan lubang agar terlihat baik</p>
+<p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+</div>
+
+<footer>
+    &copy; 2024 kristamitra. All rights reserved.
+</footer>
+
+</body>
+</html>
+    

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Halaman Perkenalan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0e91b6;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav a:hover {
+            background-color: #575757;
+            border-radius: 4px;
+        }
+        .intro-container {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+        }
+        .intro-container h2 {
+            color: #000000;
+        }
+        .intro-container p {
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+        .intro-container img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Perkenalan</h1>
+</header>
+
+<nav>
+    <a href="beranda">Beranda</a>
+    <a href="Perkenalan">Perkenalan</a>
+    <a href="bab1">Bab1</a>
+    <a href="bab2">Bab2</a>
+    <a href="bab3">Bab3</a>
+    <a href="bab4">Bab4</a>
+    <a href="bab5">Bab5</a>
+</nav>
+
+<div class="intro-container">
+    <h2>Halo nama saya Evan</h2>
+    <p>Saya adalah seorang siswa di sekolah Kristen SMP Krista Mitra. Saya sedang di fase kelas 9 dan berkelas di kelas 9A</p>
+    <p>Saya berumur 14 tahun dan memiliki hobi bermain drum, bermain game dan merakit gunpla.</p>
+    
+    <img src="gambar/Evan.jpg" alt="Jika anda melihat teks ini maka internet anda sedang ada masalah">
+    
+    
+</div>
+<div style="max-width: 600px; margin: 3em auto">
+    <table border="1" width="100%">
+        <thead>
+            <tr>
+                <th>SD</th>
+                <th>SMP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Kelas 1 Sd kristen Terang Bangsa</li>
+                        <li>Kelas 2 Sd kristen Terang Bangsa</li> 
+                        <li>Kelas 3 Sd kristen Terang Bangsa</li>
+                        <li>Kelas 4 Sd kristen Terang Bangsa</li>
+                        <li>Kelas 5 Sd kristen Terang Bangsa</li>
+                        <li>Kelas 6 Sd kristen Terang Bangsa</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Kelas 7 Krista Mitra</li>
+                        <li>Kelas 8 Krista Mitra</li>
+                        <li>Kelas 9 Krista Mitra</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<footer>
+    &copy; 2024 kristamitra. All rights reserved.
+</footer>
+
+</body>
+</html>

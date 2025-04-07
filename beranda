@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Laporan Mekatronika Kelas IX</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #3269d6;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .header-content img {
+            width: 50px;
+            height: auto;
+            margin-right: 15px;
+        }
+        nav {
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav a:hover {
+            background-color: #000000;
+            border-radius: 4px;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <img src="https://www.kristamitra.sch.id/assets/uploads/2021/12/Logo-Krismit-Transparan.png" alt="Logo Sekolah"/>
+        <h1>Selamat datang di website laporan Mekatronika Kelas IX</h1>
+    </div>
+</header>
+
+<nav>
+    <a href="beranda">Beranda</a>
+    <a href="Perkenalan">Perkenalan</a>
+    <a href="bab1">Bab1</a>
+    <a href="bab2">Bab2</a>
+    <a href="bab3">Bab3</a>
+    <a href="bab4">Bab4</a>
+    <a href="bab5">Bab5</a>
+</nav>
+
+<section id="Home">
+    <h2>Makna logo</h2>
+    <ul>
+        <li><b>Credo ut intelligam</b>: Diadopsi dari ucapan Bapak Gereja St. Agustinus yang artinya adalah Saya percaya maka saya mengerti (I believe in order to understand)</li>
+        <li><b>Perisai</b>: Mempunyai arti bahwa sekolah Kristen mempunyai fungsi sebagai benteng bagi pengaruh-pengaruh negatif bagi remaja</li>
+        <li><b>Salib</b>: Menunjukkan bahwa Krista Mitra adalah sekolah Kristen dan menunjukkan bahwa kuasa Kristus dalam sekolah ini</li>
+        <li><b>Warna biru</b>: Menunjukkan warna langit simbol tempat Allah bertahta di dalamnya</li>
+    
+    </ul>
+</section>
+
+<section id="sejarah">
+    <h2>sejarah</h2>
+    <p>Pada tanggal inilah merupakan momentum yang penting bagi Sekolah Krista Mitra, karena pada tanggal tersebut telah ditandatangani prasasti peresmian SMA Krista Mitra oleh Bapak Sutrisno Suharto (Walikotamadia Dati II Semarang waktu itu), sekaligus menandai telah dibukanya pendaftaran calon siswa SMA Krista Mitra kelas X untuk tahun pelajaran 1992/1993.</p>
+</section>
+
+<section id="kontak">
+    <h2>Kontak</h2>
+    <p>
+            &#X260F;024-761 5988(SMP) </p>
+
+           <P> &#X260F;024-760 7097(SMA)</P>
+        
+     
+</section>
+
+<footer>
+    &copy; 2024 kristamitra. All rights reserved.
+</footer>
+
+</body>
+</html>

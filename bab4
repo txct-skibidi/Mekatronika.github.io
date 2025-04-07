@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bab4</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #57c562;
+            color: rgb(0, 0, 0);
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav a:hover {
+            background-color: #282828;
+            border-radius: 4px;
+        }
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h2 {
+            color: black;
+        }
+        p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+         /* Table styling */
+         table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #000000;
+            text-align: left;
+        }
+        th {
+            background-color: #4eaf4c;
+            color: rgb(0, 0, 0);
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bab 4
+    </h1>
+    DATA DAN PEMBAHASAN 
+</header>
+
+<nav>
+    <a href="beranda">Beranda</a>
+    <a href="Perkenalan">Perkenalan</a>
+    <a href="bab1">Bab1</a>
+    <a href="bab2">Bab2</a>
+    <a href="bab3">Bab3</a>
+    <a href="bab4">Bab4</a>
+    <a href="bab5">Bab5</a>
+</nav>
+<div class="title">
+    <section id="Komponen" style="text-align:center;">
+    <h2>4.1</h2>
+    <p><b>Analisa</b></p>
+    <h2>4.1.1</h2>
+    <img src="gambar/Water sensor.jpg" width="200">
+    <img src="gambar/Flip flop+water sensor.jpg" width="200">
+    <img src="gambar/Traffic light.jpg" width="200">
+    </section>
+    <section id="rangkaian" style="text-align:left;">
+    <h3>4.1.2 Rangkaian</h4>
+    <p><b>Flip Flop</b></p>
+    <p>Kaki collector bc547 >> kaki katoda LED dan Kaki Anoda Elco 10uf</p>
+    <p>Kaki basis bc547 >> Kaki Katoda Elco100uf dan resistor 10K</p>
+    <p>Kaki emitor bc547 >> Negatif</p>
+    <p>Led kaki anoda >> Resistor 470R</p>
+    <p>Led kaki katoda >> kaki collector bc547 dan kaki anoda elco10uf</p>
+    <p>Resistor 470R >> kaki anoda Led dan arus positif</p>
+    <p>Resistor 10k >> Arus positif dan kaki basis bc547</p>
+    <p><b>Water Sensor</b></p>
+    <p>Kaki collector bc547 >> Kaki Katoda LED</p>
+    <p>Kaki basis bc547 >> resistor 1k</p>
+    <p>Kaki emitor bc547 >> arus negatif</p>
+    <P>Kaki anoda Led >> resistor 330&#8486;</P>
+    <p>Kaki katoda Led >> Kaki collector bc547</p>
+    <p>Resistor 330&#8486; >> arus positif dan kaki anoda Led</p>
+    <p>Resistor 1k >> kaki basis bc547 dan antena</p>
+    <p><b>Traffic light</b></p>
+    <p><b>IC NE555 1</b></p>
+    <p>kaki 1 >> arus negatif</p>
+    <p>kaki 2 >> elco 100uf, kaki NE555 6 dan resistor 47k</p>
+    <p>kaki 3 >> resistor 220r dan resistor 47k</p>
+    <p>kaki 4 >> arus positif</p>
+    <p>kaki 6 >> kaki NE555 2</p>
+    <p>kaki 7 >> kaki katoda Led kuning</p>
+    <p>kaki 8 >> Kaki NE555 3, kaki katoda merah dan resistor 100K </p>
+    <p><b>IC NE555 2</b></p>
+    <p>kaki 1 >> arus Negatif</p>
+    <p>kaki 2 >> kaki NE555 6, resistor 100k dan elco 100uf</p>
+    <p>kaki 3 >> kaki katoda Led merah, kaki NE555(1) nomer 8</p>
+    <p>kaki 4 >> kaki IC555 8</p>
+    <p>kaki 6 >> kaki IC555 2</p>
+    <p>kaki 8 >> kaki IC555 4 dan arus positif</p>
+    <P>Elco 100uf(1) >> kaki NE555 2,kaki NE555 6 dan resistor 47k</P>
+    <p>elco 100uf(2) >> kaki NE555(2) 2, kaki NE555(2) 6 dan resistor 100k</p>
+    <p>Kaki anoda LED merah >> resistor 470R</p>
+    <p>Kaki katoda LED merah >> Kaki NE555(1) 8 dan kaki NE555(2) 3</p>
+    <p>Kaki anoda LED kuning >> resistor 220R</p>
+    <p>Kaki katoda LED kuning >> kaki NE555(1) 7</p>
+    <p>Kaki anoda LED hijau >> kaki NE555(1) 3 dan resistor 47k</p>
+    <p>Kaki katoda LED hijau >> arus negatif</p>
+    <p>resistor 47k >> kaki NE555(1) 3,2,6 dan elco 100uf</p>
+    <p>resistor 470R >> arus positif dan kaki anoda LED merah</p>
+    <p>resistor 10K >> kaki NE555(2) 6 dan 2, Kaki NE555(1) 8 dan elco 100uf</p>
+    </section>
+</div>
+<div class="content">
+    <h2 style="text-align: center;">4.2.1 hasil yang didapatkan (Timeline)</h2> 
+    <table>
+        <tr>
+            <th><b>No.</b></th>
+            <th>Tanggal</th>
+            <th>Berhasil/gagal</th>
+            <th>Hasil yang didapatkan</th>
+            <th>Kesalahan</th>
+            <th>Pembetulan</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>13 Januari 2025</td>
+            <td>Berhasil</td>
+            <td>Beli alat dan bahan untuk membuat maket dan rangkaian</td>
+            <td style="text-align: center;">-</td>
+            <td style="text-align: center;">-</td>
+        </tr>     
+        <tr>
+            <td>2.</td>
+            <td>15 Januari 2025</td>
+            <td>Gagal</td>
+            <td>Mulai membuat rangkaian</td>
+            <td style="text-align: center;">LED rusak</td>
+            <td style="text-align: center;">Lebih hati hati dengan baterai</td>
+        </tr> 
+        <tr>
+            <td>3.</td>
+            <td>20 Januari 2025</td>
+            <td>Berhasl</td>
+            <td>Mulai membuat maket</td>
+            <td style="text-align: center;">-</td>
+            <td style="text-align: center;">-</td>
+        </tr> 
+        <tr>
+            <td>4.</td>
+            <td>Febuari 3 2025</td>
+            <td>Gagal</td>
+            <td>Menyelesaikan maket</td>
+            <td style="text-align: center;">kurang bahan</td>
+            <td style="text-align: center;">Bawa bahan yang lebih banyak</td>
+        </tr> 
+        <tr>
+            <td>5.</td>
+            <td>12 Febuari 2025</td>
+            <td>Berhasil</td>
+            <td>Maket selesai</td>
+            <td style="text-align: center;">-</td>
+            <td style="text-align: center;">-</td>
+        </tr> 
+        <tr>
+            <td>6.</td>
+            <td>17 Febuari 2025</td>
+            <td>Berhasil</td>
+            <td>Presentasi dengan guru</td>
+            <td style="text-align: center;">-</td>
+            <td style="text-align: center;">-</td>
+        </tr> 
+    </table>
+</div>
+<div class="4.2.2">
+    <section id="4.2.2">
+        <h2><b>4.2.2 Hasil Percobaan</b></h2>
+        <p><b>Water sensor</b></p>
+        <P>Percoobaan pertama tidak bisa bekerja namun saat tidak pakai resistor pada basis bc547 bisa. Percobaan kedua bisa berkerja dengan baik</P>
+        <p><b>Flip Flop</b></p>
+        <p>Percobaan pertama tidak ada masalah</p>
+        <p><b>Traffic light</b></p>
+        <p>Percobaan pertama tidak bisa karena salah masukin kaki IC N555. Percobaan kedua tidak bisa karena breaboard rusak. Percobaan ketiga bisa.</p>
+    </section>
+</div>
+<div class="4.3">
+    <section id="4.2.3">
+        <h2><b>4.3 Kelebihan dan Kekurangan Alat</b></h2>
+        <p><b>Water sensor</b></p>
+        <p>Tidak ada Kekurangan</p>
+        <p><b>Traffic light</b></p>
+        <p>Susah masukin baterai</p>
+        <p><b>Flip flop</b></p>
+        <p>Hambatan resistor terlalu besar</p>
+    </section>
+</div>
+<div class="4.4">
+    <section class="4.4">
+        <h2><b>4.4 Evaluasi diri</b></h2>
+        <p>Saya merasa bahwa semua ini maish ada yang kurang. Dan saya mengevaluasikan diri saya sendiri supaya untuk lebih detail dan lebih tidak malas untuk mengerjakan Maket.</p>
+        <p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+    </section>
+</div>
+
+<footer>
+    &copy; 2024 kristamitra. All rights reserved.
+</footer>
+
+</body>
+</html>

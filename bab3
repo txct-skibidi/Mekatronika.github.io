@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BabIII</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #3924af;
+            color: rgb(238, 238, 238);
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav a:hover {
+            background-color: #575757;
+            border-radius: 4px;
+        }
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h2 {
+            color: #000000;
+        }
+        p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        /* Table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #4c56af;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>BAB III
+    </h1>
+    Pembuatan Project
+</header>
+
+<nav>
+    <a href="beranda">Beranda</a>
+    <a href="Perkenalan">Perkenalan</a>
+    <a href="bab1">Bab1</a>
+    <a href="bab2">Bab2</a>
+    <a href="bab3">Bab3</a>
+    <a href="bab4">Bab4</a>
+    <a href="bab5">Bab5</a>
+</nav>
+
+<div class="content">
+    <h2 style="text-align: center;">Alat dan barang beserta harganya</h2> 
+    <table>
+        <tr>
+            <th>Nama</th>
+            <th>Jumlah</th>
+            <th>Harga</th>
+        </tr>
+        <tr>
+            <td>Breadboard</td>
+            <td>3</td>
+            <td>39rb</td>
+        </tr>
+        <tr>
+            <td>NE555</td>
+            <td>2</d>
+            <td>2rb</td>
+        </tr>
+        <tr>
+            <td>BC547</td>
+            <td>3</td>
+            <td>1rb</td>
+        </tr>
+        <tr>
+            <td>LED</td>
+            <td>6</td>
+            <td>1.14rb</td>
+        </tr>
+        <tr>
+            <td>resistor 300&#8486;</td>
+            <td>1</td>
+            <td>300Rp</td>
+        </tr>
+        <tr>
+            <td>resistor 470R;</td>
+            <td>3</td>
+            <td>900Rp</td>
+        </tr>
+        <tr>
+            <td>resistor 100K</td>
+            <td>3</td>
+            <td>300Rp</td>
+        </tr>
+        <tr>
+            <td>Elco</td>
+            <td>2</td>
+            <td>300Rp</td>
+        </tr>
+        <tr>
+            <td>Kabel jamper</td>
+            <td>3</td>
+            <td>15rb</td>
+        </tr>
+        <tr>
+            <td>Batre 9V</td>
+            <td>2</td>
+            <td>54rb</td>
+        </tr>
+        <tr>
+            <td>Batre 12V</td>
+            <td>1</td>
+            <td>13rb</td>
+        </tr>
+        <tr>
+            <td>Alvaboard</td>
+            <td>8</td>
+            <td>160rb</td>
+        </tr>
+        <tr>
+            <td>Hotwheels</td>
+            <td>3</td>
+            <td>40rb</td>
+        </tr>
+        <tr>
+            <td>Cutter</td>
+            <td>1</td>
+            <td>5rb</td>
+        </tr>
+        <tr>
+            <td>Gunting</td>
+            <td>1</td>
+            <td>9rb</td>
+        </tr>
+        <tr>
+            <td>Spidol</td>
+            <td>12</td>
+            <td>20rb</td>
+        </tr>
+        <tr>
+            <td>Lem tembak</td>
+            <td>1</td>
+            <td>15rb</td>
+        </tr>
+        <tr>
+            <td>Isian lem tembak</td>
+            <td>13</td>
+            <td>10rb</td>
+        </tr>
+        <tr>
+            <td>-</td>
+            <td>-</td>
+            <td>Total= 386rb</td>
+        </tr>
+
+    </table>
+</div>
+<div class="1">
+        <section id="Prinsip" style="text-align: center;">
+            <h3>Prinsip kerja alat</h3>
+            <img src="gambar/Flowchart.png" width="300">
+            <p>Traffic Light</p>
+            <img src="gambar/flowchart flip.png" width="300">
+            <p>Flip Flop</p>
+            <img src="gambar/flowchart water.png" width="300">
+            <p>Water Sensor</p>
+</div>
+
+</div>
+<div class="2">
+        <section id="skema" style="text-align: center;">
+            <h3>Skema rangkaian</h3>
+            <img src="gambar/traffic light.png">
+            <img src="gambar/flip flop.png">
+            <img src="gambar/water sensor.png">
+        </section>
+</div>
+<div class="2">
+    <section id="skema" style="text-align: center;">
+        <h4>Desain 2D dan 3D</h4>
+        <img src="gambar/desain.jpg" width="300">
+        <img src="gambar/Desain 3d.jpg" width="300">
+    </section>
+</div>
+
+<footer>
+    &copy; 2024 kristamitra. All rights reserved.
+</footer>
+
+</body>
+</html>

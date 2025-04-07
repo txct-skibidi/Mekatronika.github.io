@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BabII </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #afa24c;
+            color: rgb(0, 0, 0);
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav a:hover {
+            background-color: #575757;
+            border-radius: 4px;
+        }
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h2 {
+            color: #000000;
+        }
+        p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>BAB II</h1>
+    Tujuan pustaka
+</header>
+
+<nav>
+    <a href="beranda">Beranda</a>
+    <a href="Perkenalan">Perkenalan</a>
+    <a href="bab1">Bab1</a>
+    <a href="bab2">Bab2</a>
+    <a href="bab3">Bab3</a>
+    <a href="bab4">Bab4</a>
+    <a href="bab5">Bab5</a>
+</nav>
+
+<div class="content">
+    <section id="Komponen" style="text-align:center;">
+        <h2>komponen</h2>
+        <p><strong>Breadboard:</strong> Papan rangkaian, papan rangkaian tansolder atau papan purwarupa adalah basis konstruksi yang digunakan untuk membuat purwarupa sirkuit elektronik semi permanen.</p>
+       <img src="gambar/breabboard.jpg"  width="200" height="200">
+        <p><strong>IC 555:</strong> C pewaktu 555 adalah sebuah sirkuit terpadu yang digunakan untuk berbagai pewaktu dan multivibrator.</p>
+        <img src="gambar/ne555.jpg"  width="200" height="200">
+        <p><strong>BC547:</strong> Transistor BC547 merupakan transistor tipe NPN yang digunakan untuk switching agar mengaktifkan kontak relay dan relay tersebut akan memberikan kontak pada motor dc.</p>
+        <img src="gambar/bc547.jpg"  width="200" height="200">
+        <p><strong>Resistor 330&#8486; :</strong> Resistor 330 Ohm 2 Watt adalah komponen elektronik penting yang digunakan dalam berbagai aplikasi elektronika, termasuk papan sirkuit, lampu LED, dan sistem audio.</p>
+        <img src="gambar/330.jpeg"  width="200" height="200">
+        <p><strong>Resistor 470R:</strong>Resistor 470R adalah komponen elektronik pasif yang berfungsi untuk membatasi aliran arus listrik dalam sirkuit. Resistor ini berperan penting dalam mengendalikan aliran arus listrik, sehingga dapat melindungi komponen lain dalam sirkuit dari kerusakan yang disebabkan oleh arus yang berlebihan.</p>
+        <img src="gambar/470r.jpeg"  width="200" height="200">
+        <p><strong>Resistor 100K:</strong>Resistor 100K adalah komponen elektronik yang memiliki resistansi sebesar 100.000 ohm. Resistor ini memiliki peran penting dalam mengendalikan aliran arus dalam rangkaian elektronik.</p>
+        <img src="gambar/100k.jpg"  width="200" height="200">
+        <p><strong>elco 10 micro farad 25V:</strong> Elco adalah singkatan dari electrolytic condensator atau kapasitor elektrolit, yang merupakan komponen berbentuk tabung yang digunakan dalam rangkaian elektronik. Elco memiliki fungsi untuk menyimpan arus listrik searah (DC).</p>
+        <img src="gambar/transistor.png"  width="200" height="200">
+        <p><strong>Kabel jamper:</strong> Kabel jumper (atau jumper cable) adalah kabel pendek yang biasanya digunakan untuk menyambungkan arus listrik atau sinyal dari satu titik ke titik lain. </p>
+        <img src="gambar/jumper.jpg"  width="200" height="200">
+        <p><strong>Batre 9V:</strong> Baterai 9V adalah jenis baterai kering yang memiliki tegangan nominal sebesar 9 volt.</p>
+        <img src="gambar/9V.jpeg"  width="200" height="200">
+        <p><strong>Batre 12V:</strong> Baterai 12V adalah jenis baterai kering yang memiliki tegangan nominal sebesar 9 volt.</p>
+        <img src="gambar/12V.jpg"  width="200" height="200">
+    </section>
+
+
+    <section id="Bahan" style="text-align: center;">
+        <h2>Bahan</h2>
+        <p><strong>Alvaboard:</strong> Daftar lengkap komponen yang digunakan beserta harga.</p>
+        <img src="gambar/Alvaboard.jpeg"  width="200" height="200">
+        <p><strong>Hot wheels:</strong> Sensor laser untuk deteksi jarak dan IR Proximity untuk pengawasan di penjara.</p>
+        <img src="gambar/hotwheels.jpg"  width="200" height="200">
+        <p><strong>Kertas Putih:</strong> Desain diperbaiki dan dioptimalkan sesuai masukan dari guru pembimbing.</p>    
+        <img src="gambar/Paper_sheet.jpg"  width="200" height="200">
+        <p><strong>Stik eskrim:</strong> Skema rangkaian dan desain 2D alat yang dibuat.</p>
+        <img src="gambar/stick eskrim.jpg"  width="200" height="200">
+    </section>
+
+    <section id="alat" style="text-align: center;">
+        <h2>Alat</h2>
+        <p><strong>Cutter:</strong> Sensor IR dan sensor laser berguna untuk meningkatkan keamanan dan beragam aplikasi lainnya.</p>
+        <img src="gambar/cutter.jpeg"  width="200" height="200">
+        <p><strong>Gunting:</strong> Desain diperbaiki dan dioptimalkan sesuai masukan dari guru pembimbing.</p>
+        <img src="gambar/gunting.jpeg"  width="200" height="200">
+        <p><strong>Spidol:</strong> Desain diperbaiki dan dioptimalkan sesuai masukan dari guru pembimbing.</p>
+        <img src="gambar/spidol.jpeg"  width="200" height="200">
+        <p><strong>Lem tembak:</strong> Desain diperbaiki dan dioptimalkan sesuai masukan dari guru pembimbing.</p>
+        <img src="gambar/lem tembak.jpeg"  width="200" height="200">
+        <p><strong>Isian lem tembak:</strong> Desain diperbaiki dan dioptimalkan sesuai masukan dari guru pembimbing.</p>
+        <img src="gambar/isi lem.jpg"  width="200" height="200">
+    </section>
+</div>
+<footer>
+    &copy; 2024 kristamitra. All rights reserved.
+</footer>
+
+</body>
+</html>
